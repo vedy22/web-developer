@@ -1,0 +1,25 @@
+.place {
+    max-width: 100%;
+    padding: 32px 0 12px;
+    box-sizing: border-box;
+    background-color: #e5e6e7;
+}
+
+@media(max-width: 1279px) {
+    .place {
+        padding: 92px 28px 12px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .place {
+        padding: 88px 24px 12px;
+        
+    }
+}
+
+@media(max-width: 767px) {
+    .place {
+        padding: 16px 0 16px;
+    }
+}

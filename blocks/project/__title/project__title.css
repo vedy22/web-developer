@@ -1,0 +1,16 @@
+.project__title {
+    max-width: 100%;
+    font-size: 46px;
+    line-height: 104%;
+    font-weight: 400 bold;    
+    color: #000;
+    text-align: center;
+    margin: 5px auto 35px;
+}
+
+@media(max-width: 767px) {
+    .project__title {
+        font-size: 40px;
+        line-height: 110%;
+    }
+}

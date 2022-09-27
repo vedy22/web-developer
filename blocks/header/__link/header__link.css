@@ -1,0 +1,20 @@
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 104%;
+    font-weight: bold;
+    transition: ease 1s;
+    padding-left: 20px;
+}
+
+.header__link:hover {
+    opacity: 0.5;
+}
+
+@media(max-width: 767px) {
+    .header__link {
+        font-size: 20px;
+        padding-left: 0;
+    }
+}

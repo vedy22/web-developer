@@ -1,0 +1,14 @@
+.header__links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;    
+}
+
+@media(max-width: 767px) {
+    .header__links {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 5px 0 30px;
+        margin: 0;
+    }
+}

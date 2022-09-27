@@ -1,0 +1,26 @@
+.project__main-text {
+    line-height: 163%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding: 0;
+    margin-bottom: 26px;
+    margin-top: 0;
+    text-decoration: none;
+    transition: ease 1s;
+    text-align: center;
+}
+
+.project__main-text:hover {
+    opacity: 0.5;
+}
+
+.project__main-text:last-child {
+    margin-bottom: 0;
+}
+
+@media(max-width: 1023px) {
+    .project__main-text {
+        font-size: 16px;
+    }
+}
